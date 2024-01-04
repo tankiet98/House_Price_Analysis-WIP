@@ -13,20 +13,25 @@
        neighborhood attributes.
      - Ensure data integrity and cleanliness for accurate analysis.
 
-  2. Exploratory Data Analysis (EDA):
+  2. Data Preprocessing:
+
+     - Handle missing/errors (NA, null, duplicates) data by imputing values or removing observations as appropriate.
+     - Perform any additional data cleaning and transformation steps to prepare the dataset for modeling.
+
+  3. Exploratory Data Analysis (EDA):
      
      - Utilize Python for exploratory data analysis to uncover patterns, trends, and potential outliers in the data
        set.
      - Identify relevent features that significantly impact house prices.
 
-  3. Formulate Hypothesis
+  4. Formulate Hypothesis
 
      - Develop hypotheses regarding the relationship between specific features and house prices.
      - Drawing on domain knowledge and insights gained during the exploratory data analysis, we will articulate
        specific assumptions about how certain factors influence property values. These hypotheses will serve as the
        foundation for hypothesis testing and historical data analysis.
 
-  4. Pricing + Geospatial Analysis and Visualization:
+  5. Pricing + Geospatial Analysis and Visualization:
 
      - Utilize Python's data visualization librabries to create insightful charts and graphs.
      - Illustrate the relationships between various factors and their impact on house prices.
